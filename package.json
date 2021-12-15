@@ -1,0 +1,56 @@
+{
+    "name": "nynweb",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "http://192.168.1.11/nynweb",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@progress/jsdo": "^4.4.1",
+        "@progress/jsdo-core": "^6.0.1",
+        "@testing-library/jest-dom": "^5.15.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "axios": "^0.22.0",
+        "file-saver": "^2.0.5",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-number-format": "^4.7.3",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^5.3.0",
+        "react-scripts": "4.0.3",
+        "redux": "^4.1.2",
+        "web-vitals": "^1.1.2",
+        "xlsx": "^0.17.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.2",
+        "prettier": "^2.4.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+.solares-layout {
+    margin-right: 40px;
+    margin-left: 80px;
+    margin-top: var(--header-height);
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.menu--show {
+    margin-left: 230px;
+}
